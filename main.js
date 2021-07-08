@@ -12,8 +12,14 @@ function createWindow () {
     }
   })
 
+  // 会生成一个新的窗口
+  // const win = new BrowserWindow({width:800, height: 600})
+  // win.loadURL('https://github.com').then();
+  // const webContents = win.webContents;
+  // console.log(webContents);
+
   // and load the index.html of the app.
-  mainWindow.loadFile('index.html')
+  mainWindow.loadFile('index.html');
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
